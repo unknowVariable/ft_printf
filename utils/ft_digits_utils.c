@@ -6,7 +6,7 @@
 /*   By: aconstan <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/05 03:35:50 by aconstan          #+#    #+#             */
-/*   Updated: 2023/12/05 06:33:24 by aconstan         ###   ########.fr       */
+/*   Updated: 2023/12/08 02:46:18 by aconstan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -45,12 +45,7 @@ int	ft_print_digit_hex(unsigned long n, int base, char *letter_case)
 		symbols = "0123456789abcdef";
 	else
 		symbols = "0123456789ABCDEF";
-	if (n < 0)
-	{
-		write(1, "-", 1);
-		return (ft_print_digit_hex(-n, base, letter_case) + 1);
-	}
-	else if (n < (unsigned long)base)
+	if (n < (unsigned long)base)
 	{
 		return (ft_print_char(symbols[n]));
 	}
