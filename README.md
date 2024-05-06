@@ -1,22 +1,22 @@
-# Projet ft_printf
+# Project ft_printf
 
 ## Description
 
-Le projet ft_printf consiste en la création d'une fonction `printf` personnalisée en langage C, nommée `ft_printf`. Cette fonction reproduit le comportement de la fonction `printf` standard de la bibliothèque C, mais avec des fonctionnalités supplémentaires et une implémentation personnalisée. L'objectif est de comprendre en profondeur le fonctionnement de `printf`, d'apprendre à manipuler les arguments variables en C, et de développer ses compétences en programmation.
+The ft_printf project involves creating a custom `printf` function in C, named `ft_printf`. This function replicates the behavior of the standard C library's `printf` function, but includes additional features and a custom implementation. The aim is to deeply understand how `printf` works, to learn how to handle variable arguments in C, and to enhance programming skills.
 
-## Fonctionnalités
+## Features
 
-- Prise en charge des conversions de spécificateurs de format :
-  - `%c` : Affiche un caractère
-  - `%s` : Affiche une chaîne de caractères
-  - `%d`, `%i` : Affiche un entier signé en base 10
-  - `%x`, `%X` : Affiche un entier non signé en base 16 (en minuscules ou majuscules)
-  - `%u` : Affiche un entier non signé en base 10
-  - `%p` : Affiche un pointeur en hexadecimal
+- Support for format specifier conversions:
+  - `%c`: Displays a character
+  - `%s`: Displays a string of characters
+  - `%d`, `%i`: Displays a signed integer in base 10
+  - `%x`, `%X`: Displays an unsigned integer in hexadecimal (lowercase or uppercase)
+  - `%u`: Displays an unsigned integer in base 10
+  - `%p`: Displays a pointer in hexadecimal
 
-## Utilisation
+## Usage
 
-Pour utiliser la fonction `ft_printf` dans votre programme, vous devez inclure le fichier header correspondant et appeler la fonction comme vous le feriez avec `printf`. Voici un exemple minimal d'utilisation :
+To use the `ft_printf` function in your program, you need to include the corresponding header file and call the function as you would with `printf`. Here is a minimal example of usage:
 
 ```c
 #include "ft_printf.h"
